@@ -1,0 +1,49 @@
+.up-button {
+  width: 56px;
+  height: 56px;
+  background-color: rgba(0, 0, 0, .0);
+  background-image: url(../../images/up-btn.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  outline: none;
+  /* position: sticky;
+  bottom: 60px; */
+  position: sticky;
+  top: calc(100vh - 60px - 56px);
+  right: 80px;
+
+  padding: 0;
+  z-index: 1000;
+  margin: 0 0 316px 0;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.up-button:hover {
+  background-image: url(../../images/up-btn-hover.svg);
+}
+
+.up-button:active {
+  background-image: url(../../images/up-btn-active.svg);
+}
+
+.up-button_hidden {
+  display: none;
+}
+
+.up-button__container {
+  position: absolute;
+  top: 0;
+  right: calc((100% - 1280px) / 2);
+  z-index: 1000;
+  width: 56px;
+  height: 100%;
+  clip-path: inset(2320px 0 284px);
+}
+
+@media screen and (min-width: 320px) and (max-width: 744px) {
+  .up-button__container {
+    display: none;
+  }
+}

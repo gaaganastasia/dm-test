@@ -1,0 +1,372 @@
+.expert {
+  background: #F6FEFF;
+  width: 100%;
+  margin: 0 auto 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expert__line {
+  width: 100%;
+  background-color: #172D60;
+  height: 1px;
+  margin: 16px auto 120px;
+}
+
+.expert__info {
+  display: flex;
+  width: 1280px;
+  justify-content: space-between;
+}
+
+.expert__photo-block_mobile {
+  display: none;
+}
+
+.expert__photo {
+  width: 510px;
+  height: 720px;
+  object-fit: contain;
+  margin: 0 0 8px;
+  border-radius: 16px;
+}
+
+.expert__quote {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 8px 0 0;
+}
+
+.expert__name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  /* or 114% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+  max-width: 620px;
+}
+
+.expert__job {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 16px 0 0;
+}
+
+.expert__seniority {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 24px 0 0;
+}
+
+.expert__list-name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 24px 0 0;
+}
+
+.expert__list {
+  margin: 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 0 0 26px;
+}
+
+.expert__list-item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+  max-width: 618px;
+}
+
+.expert__link {
+  margin: 56px 0 0;
+  width: 240px;
+  height: 64px;
+  background: linear-gradient(90deg, #B3E53F 0%, #96E6A1 100%);
+  border-radius: 40px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: .5s;
+}
+
+.expert__link:hover {
+  background: linear-gradient(90deg, #B3FF02 0%, #96E6A1 100%);
+  box-shadow: 2px 2px 8px rgba(23, 45, 96, 0.4);
+}
+
+.expert__link:active {
+  background: linear-gradient(90deg, #E4F8B6 0%, #96E6A1 100%);
+}
+
+.expert__link_mobile {
+  display: none;
+}
+
+.expert__link-icon {
+  background-image: url(../../images/whatsapp-icon.svg);
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.expert__link-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+  text-decoration: none;
+}
+
+.expert__docs {
+  display: flex;
+  gap: 24px 40px;
+  margin: 80px auto 0;
+  width: 1280px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+/* .expert__docs {
+  display: grid;
+  grid-template-columns: 440px;
+  grid-template-rows: 340px;
+  grid-auto-flow: column;
+  grid-auto-rows: 340px;
+  grid-auto-columns: 440px;
+  width: 1280px;
+  margin: 55px auto 0;
+} */
+
+.expert__docs_center {
+  justify-content: center;
+}
+
+.expert__doc {
+  object-fit: contain;
+  width: 400px;
+  height: 290px;
+  /* align-self: center;
+  justify-self: center; */
+  transition: transform .5s;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.expert__doc:hover {
+  /* width: 480px;
+  height: 340px; */
+  z-index: 1000;
+  transform: scale(1.2);
+}
+
+.expert__doc_v {
+  width: 180px;
+  height: 260px;
+}
+
+.expert__doc_v:hover {
+  transform: scale(2);
+}
+
+.expert__doc_g {
+  width: 290px;
+  height: 200px;
+}
+
+.expert__doc_g:hover {
+  transform: scale(2);
+}
+
+@media screen and (min-width: 320px) and (max-width: 744px) {
+  .expert {
+    margin: 0 auto 40px;
+  }
+  
+  .expert__line {
+    margin: 16px auto 40px;
+  }
+  
+  .expert__info {
+    width: 280px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .expert__photo-block_mobile {
+    display: block;
+  }
+
+  .expert__photo-block_desktop {
+    display: none;
+  }
+  
+  .expert__photo {
+    width: 280px;
+    height: 395px;
+    margin: 16px 0 0;
+  }
+  
+  .expert__quote {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .expert__name {
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 280px;
+  }
+  
+  .expert__job {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 8px 0 0;
+  }
+  
+  .expert__seniority {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 8px 0 0;
+  }
+  
+  .expert__list-name {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .expert__list-item {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 280px;
+  }
+  
+  .expert__link {
+    margin: 24px auto 0;
+    width: 154px;
+    height: 48px;
+  }
+
+  .expert__link_mobile {
+    display: flex;
+  }
+
+  .expert__link_desktop {
+    display: none;
+  }
+  
+  .expert__link-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .expert__docs {
+    gap: 8px;
+    margin: 24px 0 0;
+    width: 100vw;
+    padding: 0 calc((100vw - 280px) / 2);
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: start;
+  }
+
+  .expert__docs::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .expert__doc {
+    width: 280px;
+    height: 200px;
+    flex: 0 0 auto;
+  }
+  
+  .expert__doc:hover {
+    transform: scale(1);
+  }
+  
+  .expert__doc_v:hover {
+    transform: scale(1);
+  }
+
+  .expert__doc_g:hover {
+    transform: scale(1);
+  }
+
+  .expert__doc_v {
+    width: 180px;
+    height: 260px;
+  }
+  
+  .expert__doc_g {
+    width: 290px;
+    height: 200px;
+  }
+}

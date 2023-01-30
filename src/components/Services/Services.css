@@ -1,0 +1,250 @@
+.services {
+  background: #C2F3FB;
+  width: 100%;
+  margin: 160px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.services__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+  /* identical to box height, or 118% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 46px auto 0;
+}
+
+.services__image {
+  /* background-image: url(../../images/services-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 486px;
+  height: 486px;
+  margin: 118px auto 0; */
+  display: none;
+}
+
+.services__image-desktop {
+  width: 486px;
+  height: 486px;
+  margin: 118px auto 94px;
+  position: relative;
+}
+
+.services__image-tooth {
+  background-image: url(../../images/services-back-tooth.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  top: calc(50% - 120px);
+  left: calc(50% - 120px);
+}
+
+/* @keyframes ellipses-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+} */
+
+.services__image-ellipses {
+  background-image: url(../../images/services-back-ellipses.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 486px;
+  height: 486px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.services__link {
+  position: absolute;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  text-decoration: none;
+  margin: 0;
+  transition: .3s;
+}
+
+.services__link:hover {
+  color: #0542D0;
+}
+
+.services__link:active {
+  color: #436DD1;
+}
+
+.services__link_l {
+  top: 176px;
+  left: calc((100% - 276px) / 2)
+}
+
+.services__link_k {
+  top: 240px;
+  right: calc((100% / 2) + 142px);
+}
+
+.services__link_o {
+  top: 336px;
+  right: calc((100% / 2) + 234px);
+}
+
+.services__link_gi {
+  top: 454px;
+  right: calc((100% / 2) + 266px);
+}
+
+.services__link_gn {
+  top: 578px;
+  right: calc((100% / 2) + 234px);
+}
+
+.services__link_pa {
+  top: 680px;
+  right: calc((100% / 2) + 142px);
+}
+
+.services__link_e {
+  top: 742px;
+}
+
+.services__link_pr {
+  top: 680px;
+  left: calc((100% / 2) + 142px);
+}
+
+.services__link_t {
+  top: 578px;
+  left: calc((100% / 2) + 234px);
+}
+
+.services__link_h {
+  top: 454px;
+  left: calc((100% / 2) + 266px);
+}
+
+.services__link_d {
+  top: 336px;
+  left: calc((100% / 2) + 234px);
+}
+
+.services__link_i {
+  top: 240px;
+  left: calc((100% / 2) + 142px);
+}
+
+.services__btn {
+  margin: 0 auto 50px;
+  width: 240px;
+  height: 64px;
+  background: linear-gradient(90deg, #B3E53F 0%, #96E6A1 100%);
+  border-radius: 40px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: .5s;
+}
+
+.services__btn:hover {
+  background: linear-gradient(90deg, #B3FF02 0%, #96E6A1 100%);
+  box-shadow: 2px 2px 8px rgba(23, 45, 96, 0.4);
+}
+
+.services__btn:active {
+  background: linear-gradient(90deg, #E4F8B6 0%, #96E6A1 100%);
+}
+
+.services__btn-icon {
+  background-image: url(../../images/whatsapp-icon.svg);
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services__btn-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+  text-decoration: none;
+}
+
+.services__services-page_main {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 744px) {
+  .services {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 38px 0 0;
+    overflow: hidden;
+  }
+  
+  .services__title {
+    display: none;
+  }
+  
+  .services__link {
+    display: none;
+  }
+  
+  .services__btn {
+    display: none;
+  }
+
+  .services__image {
+    display: block;
+    background-image: url(../../images/services-back-320.png);
+    width: 480px;
+    height: 480px;
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .services__image-desktop {
+    display: none;
+  }
+
+  .services__services-page_main {
+    display: block;
+  }
+}

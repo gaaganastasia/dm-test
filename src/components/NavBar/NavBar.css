@@ -1,0 +1,51 @@
+.navbar {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 744px) {
+  .navbar {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    top: 64px;
+    right: calc((100% - 280px) / 2);
+  }
+  
+  .navbar__links {
+    right: 0;
+    top: 64px;
+    display: none;
+    list-style: none;
+    flex-direction: column;
+    gap: 7px;
+    min-height: 30px;
+    background: #F6FEFF;
+    outline: 1px solid #172D60;
+    border-radius: 5px;
+    padding: 16px 9px;
+    width: calc(130px - 18px);
+    margin: 0;
+  }
+  
+  .navbar__links_visible {
+    display: flex;
+  }
+  
+  .navbar__link a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    
+    /* Dark blue */
+    
+    color: #172D60;
+    margin: 0;
+    text-decoration: none;
+    transition: .3s;
+    cursor: pointer;
+  }
+}

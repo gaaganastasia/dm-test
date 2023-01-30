@@ -1,0 +1,233 @@
+.reviews {
+  width: 100%;
+  background: #C2F3FB;
+  margin: 160px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+  /* identical to box height, or 118% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 46px auto 0;
+  display: inline;
+}
+
+.reviews__cards {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin: 64px auto 0;
+}
+
+.reviews__card {
+  width: calc(400px - 48px);
+  height: calc(320px - 48px);
+  padding: 24px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  background: #F6FEFF;
+  border-radius: 16px;
+}
+
+.reviews__info {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  max-width: 100%;
+}
+
+.reviews__user {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+  align-self: flex-end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.reviews__date {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+  align-self: flex-end;
+  justify-self: end;
+}
+
+.reviews__link {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 60px;
+  border: 1px solid #172D60;
+  border-radius: 40px;
+  margin:  40px auto 50px;
+  text-decoration: none;
+  transition: .3s;
+  outline: none !important;
+}
+
+.reviews__link:hover {
+  filter: drop-shadow(2px 2px 4px rgba(5, 66, 208, 0.4));
+  border-color: #0542D0;
+}
+
+.reviews__link:active {
+  border-color: #436DD1;
+  filter: none;
+}
+
+.reviews__link-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+}
+
+.reviews__link:hover .reviews__link-text {
+  color: #0542D0;
+}
+
+.reviews__link:active .reviews__link-text {
+  color: #436DD1;
+}
+
+.reviews__link-icon {
+  background-image: url(../../images/reviews-btn-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 32px;
+  height: 8px;
+}
+
+.reviews__link:hover .reviews__link-icon {
+  background-image: url(../../images/reviews-btn-icon-hover.svg);
+}
+
+.reviews__link:active .reviews__link-icon {
+  background-image: url(../../images/reviews-btn-icon-active.svg);
+}
+
+.reviews__link:visited .reviews__link-icon {
+  background-image: url(../../images/reviews-btn-icon.svg);
+}
+
+@media screen and (min-width: 320px) and (max-width: 744px) {
+  .reviews {
+    width: 100%;
+    margin: 40px 0 0;
+    overflow: hidden;
+  }
+  
+  .reviews__title {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 24px auto 0;
+    max-width: 190px;
+    text-align: center;
+  }
+  
+  .reviews__cards {
+    width: calc(100vw - (100vw - 280px));
+    margin: 12px 0 0;
+    padding: 0 calc((100vw - 280px) / 2);
+    gap: 8px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: start;
+  }
+
+  .reviews__cards::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .reviews__card {
+    width: calc(280px - 32px);
+    height: calc(320px - 32px);
+    padding: 16px;
+    flex: 0 0 auto;
+  }
+  
+  .reviews__info {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .reviews__user {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .reviews__date {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .reviews__link {
+    width: 154px;
+    height: 48px;
+    margin:  46px auto;
+  }
+  
+  .reviews__link-icon {
+    width: 24px;
+  }
+}

@@ -1,0 +1,223 @@
+.staff {
+  width: 1280px;
+  margin: 160px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.staff__title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+  /* identical to box height, or 118% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+}
+
+.staff__subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 16px auto 0;
+}
+
+.staff__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 64px auto 0;
+  justify-content: center;
+}
+
+.staff__block {
+  width: 400px;
+}
+
+.staff__link {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+.staff__link:hover .staff__name {
+  color: #0542D0;
+}
+
+.staff__link:active .staff__name {
+  color: #436DD1;
+}
+
+.staff__photo {
+  width: 400px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.staff__name {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 12px 0 0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.staff__name:hover {
+  color: #0542D0;
+}
+
+.staff__name:active {
+  color: #436DD1;
+}
+
+.staff__job {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 12px 0 0;
+}
+
+.staff__btn {
+  margin: 40px auto 0;
+  width: 240px;
+  height: 64px;
+  background: linear-gradient(90deg, #B3E53F 0%, #96E6A1 100%);
+  border-radius: 40px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: .5s;
+}
+
+.staff__btn:hover {
+  background: linear-gradient(90deg, #B3FF02 0%, #96E6A1 100%);
+  box-shadow: 2px 2px 8px rgba(23, 45, 96, 0.4);
+}
+
+.staff__btn:active {
+  background: linear-gradient(90deg, #E4F8B6 0%, #96E6A1 100%);
+}
+
+.staff__btn-icon {
+  background-image: url(../../images/whatsapp-icon.svg);
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.staff__btn-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  
+  
+  /* Dark blue */
+  
+  color: #172D60;
+  margin: 0;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 744px) {
+  .staff {
+    width: 280px;
+    margin: 38px auto 0;
+  }
+  
+  .staff__title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  
+  .staff__subtitle {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px auto 0;
+  }
+  
+  .staff__container {
+    width: calc(100vw - (100vw - 280px));
+    padding: 0 calc((100vw - 280px) / 2);
+    flex-wrap: nowrap;
+    gap: 8px;
+    margin: 16px 0 0;
+    overflow-x: auto;
+    justify-content: start;
+  }
+
+  .staff__container::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .staff__block {
+    width: min-content;
+    flex: 0 0 auto;
+  }
+  
+  .staff__photo {
+    width: 278px;
+    height: 306px;
+  }
+  
+  .staff__name {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 8px 0 0;
+  }
+  
+  .staff__job {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 4px 0 0;
+  }
+  
+  .staff__btn {
+    margin: 24px auto 0;
+    width: 154px;
+    height: 48px;
+  }
+  
+  .staff__btn-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
