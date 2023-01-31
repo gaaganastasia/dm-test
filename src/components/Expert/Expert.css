@@ -30,12 +30,28 @@
   object-fit: contain;
   margin: 0 0 8px;
   border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .expert__photo_nbc {
   background-image: url(../../images/expert-nimaev-bc.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+}
+
+.expert__photo_nev {
+  background-image: url(../../images/expert-nimaeva-ev.png);
+}
+
+.expert__photo_nab {
+  background-image: url(../../images/expert-nimaev-ab.png);
+}
+
+.expert__photo_eee {
+  background-image: url(../../images/expert-elizarova-ee.png);
+}
+
+.expert__photo_pmu {
+  background-image: url(../../images/expert-petrova-mu.png);
 }
 
 .expert__quote {
@@ -225,6 +241,8 @@
   box-sizing: border-box;
   display: inline-block;
   cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .expert__doc:hover {
@@ -232,6 +250,78 @@
   height: 340px; */
   z-index: 1000;
   transform: scale(1.2);
+}
+
+.expert__doc_nbc-kmn {
+  background-image: url(../../images/expert-doc-nimaev-bc-kmn.png);
+}
+
+.expert__doc_nbc-dmn {
+  background-image: url(../../images/expert-doc-nimaev-bc-dmn.png);
+}
+
+.expert__doc_nev-d {
+  background-image: url(../../images/expert-doc-nimaeva-ev-diploma.png);
+}
+
+.expert__doc_nev-s1 {
+  background-image: url(../../images/expert-doc-nimaeva-ev-s1.png);
+}
+
+.expert__doc_nev-u {
+  background-image: url(../../images/expert-doc-nimaeva-ev-ud.png);
+}
+
+.expert__doc_nev-s2 {
+  background-image: url(../../images/expert-doc-nimaeva-ev-s2.png);
+}
+
+.expert__doc_nab-d {
+  background-image: url(../../images/expert-doc-nimaev-ab-diploma.png);
+}
+
+.expert__doc_nab-s1 {
+  background-image: url(../../images/expert-doc-nimaev-ab-s1.png);
+}
+
+.expert__doc_nab-s2 {
+  background-image: url(../../images/expert-doc-nimaev-ab-s2.png);
+}
+
+.expert__doc_nab-s3 {
+  background-image: url(../../images/expert-doc-nimaev-ab-s3.png);
+}
+
+.expert__doc_eee-d1 {
+  background-image: url(../../images/expert-doc-elizarova-ee-diploma1.png);
+}
+
+.expert__doc_eee-s1 {
+  background-image: url(../../images/expert-doc-elizarova-ee-s1.png);
+}
+
+.expert__doc_eee-d2 {
+  background-image: url(../../images/expert-doc-elizarova-ee-diploma2.png);
+}
+
+.expert__doc_eee-d3 {
+  background-image: url(../../images/expert-doc-elizarova-ee-diploma3.png);
+}
+
+.expert__doc_eee-u {
+  background-image: url(../../images/expert-doc-elizarova-ee-ud.png);
+}
+
+.expert__doc_pmu-d {
+  background-image: url(../../images/expert-doc-petrova-mu-diploma.png);
+}
+
+.expert__doc_pmu-s1 {
+  background-image: url(../../images/expert-doc-petrova-mu-s1.png);
+}
+
+.expert__doc_pmu-s2 {
+  background-image: url(../../images/expert-doc-petrova-mu-s2.png);
 }
 
 .expert__doc_v {
