@@ -58,7 +58,11 @@ function Footer() {
         </div>
         <div className='footer__row'>
           <div className='footer__icon footer__icon_loc'></div>
-          <p className='footer__text'>г.Москва, ул.Белореченская, д.12 м.Люблино (вход с ул.Новороссийская)</p>
+          {window.innerWidth > 900 ?
+            <p className='footer__text'>г.Москва, ул.Белореченская, д.12 м.Люблино (вход с ул.Новороссийская)</p>
+            :
+            <p className='footer__text'>г.Москва, ул.Белореченская, д.12 м.Люблино<br />(вход с ул.Новороссийская)</p>
+          }
         </div>
         <div className='footer__row'>
           <div className='footer__icon footer__icon_mail'></div>

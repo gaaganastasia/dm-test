@@ -118,13 +118,13 @@
 }
 
 .reviews__link:hover {
-  filter: drop-shadow(2px 2px 4px rgba(5, 66, 208, 0.4));
+  box-shadow : 2px 2px 4px rgba(5, 66, 208, 0.4);
   border-color: #0542D0;
 }
 
 .reviews__link:active {
   border-color: #436DD1;
-  filter: none;
+  box-shadow: none;
 }
 
 .reviews__link-text {
@@ -156,6 +156,7 @@
   background-size: contain;
   width: 32px;
   height: 8px;
+  filter: none !important;
 }
 
 .reviews__link:hover .reviews__link-icon {
@@ -226,8 +227,33 @@
     height: 48px;
     margin:  46px auto;
   }
+
+  .reviews__link:hover {
+    box-shadow: none;
+    border-color: #172D60;
+  }
+  
+  .reviews__link:active {
+    border-color: #172D60;
+  }
   
   .reviews__link-icon {
     width: 24px;
+  }
+
+  .reviews__link:hover .reviews__link-text {
+    color: #172D60;
+  }
+  
+  .reviews__link:active .reviews__link-text {
+    color: #172D60;
+  }
+
+  .reviews__link:hover .reviews__link-icon {
+    background-image: url(../../images/reviews-btn-icon.svg);
+  }
+  
+  .reviews__link:active .reviews__link-icon {
+    background-image: url(../../images/reviews-btn-icon.svg);
   }
 }

@@ -706,7 +706,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А16.07.063</p>
                 <p className='services-page__service-text services-page__service-text_name'>Пластика альвеолярного отростка верхней челюсти</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 3 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 3 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />3 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А16.07.089</p>
@@ -818,7 +822,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.019</p>
                 <p className='services-page__service-text services-page__service-text_name'>Временное шинирование при заболеваниях пародонта (1 единица)</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 6 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 6 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />6 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А16.07.037</p>
@@ -928,7 +936,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А16.07.021.003</p>
                 <p className='services-page__service-text services-page__service-text_name'>Коррекция прикуса с использованием съемных и несъемных ортопедических конструкций – каппа</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 35 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 35 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />35 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.035.001</p>
@@ -1226,12 +1238,20 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.058</p>
                 <p className='services-page__service-text services-page__service-text_name'>Изготовление пластинки вестибулярной</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 20 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 20 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />20 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.059</p>
                 <p className='services-page__service-text services-page__service-text_name'>Изготовление пластинки с заслоном для языка (без Кламмеров)</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 15 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 15 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />15 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.060</p>
@@ -1241,7 +1261,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.061</p>
                 <p className='services-page__service-text services-page__service-text_name'>Изготовление позиционера</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 9 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 9 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />9 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.062</p>
@@ -1261,7 +1285,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.065</p>
                 <p className='services-page__service-text services-page__service-text_name'>Изготовление элайнера</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 70 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 70 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />70 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.067</p>
@@ -1276,7 +1304,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.071</p>
                 <p className='services-page__service-text services-page__service-text_name'>Изготовление сложного челюстного протеза</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 60 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 60 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />60 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002.072</p>
@@ -1537,42 +1569,74 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.046</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ортодонтическая коррекция несъемным ортодонтическим аппаратом</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 25 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 25 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />25 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.046.001</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ортодонтическая коррекция несъемным ортодонтическим аппаратом.....</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 25 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 25 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />25 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.047</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ортодонтическая коррекция съемным ортодонтическим аппаратом</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 18 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 18 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />18 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.047.001</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ортодонтическая коррекция съемным ортодонтическим аппаратом.....</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 18 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 18 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />18 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.048</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ортодонтическая коррекция с применением брекет-систем</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 85 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 85 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />85 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.048.001</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ортодонтическая коррекция с применением брекет-системы металлической</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 85 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 85 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />85 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.048.002</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ортодонтическая коррекция с применением брекет-системы керамической</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 95 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 95 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />95 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.048.003</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ортодонтическая коррекция с применением брекет-системы сапфировой</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 135 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 135 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />135 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.048.004</p>
@@ -1602,7 +1666,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А16.07.021</p>
                 <p className='services-page__service-text services-page__service-text_name'>Коррекция прикуса с использованием съемных и несъемных ортопедических конструкций</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 8 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 8 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />8 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.025.002</p>
@@ -1627,7 +1695,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>A16.07.053.002</p>
                 <p className='services-page__service-text services-page__service-text_name'>Распил ортодонтического аппарата через винт</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 5 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 5 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />5 000</p>
+                }
               </div>
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.003</p>
@@ -1652,7 +1724,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.001.002</p>
                 <p className='services-page__service-text services-page__service-text_name'>Ремонт ортодонтического аппарата</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 5 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 5 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />5 000</p>
+                }
               </div>
               <div className='services-page__section-caption'>
                 <p className='services-page__section-caption-text'>Вся представленная на сайте информация, касающаяся услуг и стоимости услуг, носит информационный характер и не является публичной офертой</p>
@@ -1973,7 +2049,11 @@ function ServicesPage(props) {
               <div className='services-page__service'>
                 <p className='services-page__service-text services-page__service-text_code'>А23.07.002</p>
                 <p className='services-page__service-text services-page__service-text_name'>Услуги по изготовлению ортопедической конструкции стоматологической</p>
-                <p className='services-page__service-text services-page__service-text_price'>от 6 000</p>
+                {window.innerWidth > 900 ?
+                  <p className='services-page__service-text services-page__service-text_price'>от 6 000</p>
+                  :
+                  <p className='services-page__service-text services-page__service-text_price'>от<br />6 000</p>
+                }
               </div>
               <div className='services-page__section-caption'>
                 <p className='services-page__section-caption-text'>Вся представленная на сайте информация, касающаяся услуг и стоимости услуг, носит информационный характер и не является публичной офертой</p>

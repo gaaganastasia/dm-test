@@ -16,7 +16,11 @@ function ContactsPage() {
           </div>
           <div className='contacts-page__row'>
             <div className='contacts-page__icon contacts-page__icon_loc'></div>
-            <p className='contacts-page__text contacts-page__text_row'>г.Москва, ул.Белореченская, д.12 м.Люблино (вход с ул.Новороссийская)</p>
+            {window.innerWidth > 900 ?
+              <p className='contacts-page__text contacts-page__text_row'>г.Москва, ул.Белореченская, д.12 м.Люблино (вход с ул.Новороссийская)</p>
+              :
+              <p className='contacts-page__text contacts-page__text_row'>г.Москва, ул.Белореченская, д.12 м.Люблино<br />(вход с ул.Новороссийская)</p>
+            }
           </div>
           <div className='contacts-page__row'>
             <div className='contacts__icon contacts-page__icon_mail'></div>
@@ -28,7 +32,11 @@ function ContactsPage() {
           </div>
           <div className='contacts-page__row'>
             <div className='contacts-page__icon contacts-page__icon_time'></div>
-            <p className='contacts-page__text contacts-page__text_row'>Прием граждан руководителем клиники<br />Ср. с 15:00 до 16:00</p>
+            {window.innerWidth > 900 ?
+              <p className='contacts-page__text contacts-page__text_row'>Прием граждан руководителем клиники<br />Ср. с 15:00 до 16:00</p>
+              :
+              <p className='contacts-page__text contacts-page__text_row'>Прием граждан<br/>руководителем клиники<br />Ср. с 15:00 до 16:00</p>
+            }
           </div>
           <div className='contacts-page__desktop-section'>
             <p className='contacts-page__text'><span className="contacts-page__text_bold">Структура и органы управления клиники —</span><br />Генеральный директор Нимаев Баир Цыденович</p>
