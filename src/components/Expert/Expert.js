@@ -40,7 +40,8 @@ function Expert() {
         {
           id === '5fcc6ff4-3328-4df3-86a0-d84aec5ece4d' &&
           <div className='expert__photo-block expert__photo-block_desktop'>
-            <img className='expert__photo' src={nimaevBc} alt="Портрет специалиста Нимаева Баира Цыденовича"></img>
+            {/* <img className='expert__photo' src={nimaevBc} alt="Портрет специалиста Нимаева Баира Цыденовича"></img> */}
+            <div className='expert__photo expert__photo_nbc'></div>
             <p className='expert__quote'>«Лучшая жизнь начинается со здоровых зубов»</p>
             <p className='expert__quote'>«Стоматолог, который поёт»</p>
           </div>

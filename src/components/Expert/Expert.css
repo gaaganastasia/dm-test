@@ -32,6 +32,12 @@
   border-radius: 16px;
 }
 
+.expert__photo_nbc {
+  background-image: url(../../images/expert-nimaev-bc.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .expert__quote {
   font-family: 'Open Sans';
   font-style: italic;
