@@ -28,22 +28,6 @@ function Staff() {
             <p className='staff__job'>Доктор медицинских наук, профессор<br />Стоматолог-терапевт, хирург</p>
           </div>
           <div className='staff__block'>
-            <Link to="/expert/44bfe6f7-2d8c-4e42-a3d3-530b439ed5f5" className='staff__link'>
-              <img alt="Нимаев Аюр Баирович" src={photo2} className='staff__photo'></img>
-              <p className='staff__name'>Нимаев Аюр Баирович</p>
-            </Link>
-            <p className='staff__job'>Стоматолог-терапевт, эндодонтист, ортопед</p>
-          </div>
-          <div className='staff__block'>
-            <Link to="/expert/78a9680a-c29e-4c86-83ed-d2edc008decf" className='staff__link'>
-              <img alt="Нимаева Евгения Владимировна" src={photo3} className='staff__photo'></img>
-              <p className='staff__name'>Нимаева Евгения Владимировна</p>
-            </Link>
-            <p className='staff__job'>Стоматолог-терапевт, хирург</p>
-          </div>
-        </Fade>
-        <Fade bottom>
-          <div className='staff__block'>
             <Link to="/expert/3f11baac-ff21-4416-8909-793e645631c7" className='staff__link'>
               <img alt="Петрова Маргарита Юрьевна" src={photo4} className='staff__photo'></img>
               <p className='staff__name'>Петрова Маргарита Юрьевна</p>
@@ -51,11 +35,27 @@ function Staff() {
             <p className='staff__job'>Стоматолог-ортодонт, гнатолог</p>
           </div>
           <div className='staff__block'>
+            <Link to="/expert/44bfe6f7-2d8c-4e42-a3d3-530b439ed5f5" className='staff__link'>
+              <img alt="Нимаев Аюр Баирович" src={photo2} className='staff__photo'></img>
+              <p className='staff__name'>Нимаев Аюр Баирович</p>
+            </Link>
+            <p className='staff__job'>Стоматолог-терапевт, эндодонтист, ортопед</p>
+          </div>
+        </Fade>
+        <Fade bottom>
+          <div className='staff__block'>
             <Link to="/expert/e3585a2a-e6b2-475f-9a0d-278308a3585c" className='staff__link'>
               <img alt="Елизарова Елена Эдуардовна" src={photo5} className='staff__photo'></img>
               <p className='staff__name'>Елизарова Елена Эдуардовна</p>
             </Link>
             <p className='staff__job'>Стоматолог-пародонтолог</p>
+          </div>
+          <div className='staff__block'>
+            <Link to="/expert/78a9680a-c29e-4c86-83ed-d2edc008decf" className='staff__link'>
+              <img alt="Нимаева Евгения Владимировна" src={photo3} className='staff__photo'></img>
+              <p className='staff__name'>Нимаева Евгения Владимировна</p>
+            </Link>
+            <p className='staff__job'>Стоматолог-терапевт, хирург</p>
           </div>
         </Fade>
       </div>
