@@ -24,12 +24,6 @@
 }
 
 .services__image {
-  /* background-image: url(../../images/services-back.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 486px;
-  height: 486px;
-  margin: 118px auto 0; */
   display: none;
 }
 
@@ -51,14 +45,6 @@
   left: calc(50% - 120px);
 }
 
-/* @keyframes ellipses-anim {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(90deg);
-  }
-} */
 
 .services__image-ellipses {
   background-image: url(../../images/services-back-ellipses.svg);

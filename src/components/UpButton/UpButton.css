@@ -7,8 +7,6 @@
   background-size: cover;
   border: none;
   outline: none;
-  /* position: sticky;
-  bottom: 60px; */
   position: sticky;
   top: calc(100vh - 60px - 56px);
   right: 80px;

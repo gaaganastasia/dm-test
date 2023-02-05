@@ -1,6 +1,6 @@
 import './ServicesPage.css';
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { animateScroll as scroll } from 'react-scroll';
 import { Collapse } from 'react-collapse';
 

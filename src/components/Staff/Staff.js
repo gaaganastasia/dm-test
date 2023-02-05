@@ -1,5 +1,5 @@
 import './Staff.css';
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import photo1 from '../../images/staff-nimaev-bc.png';
 import photo2 from '../../images/staff-nimaev-ab.png';
 import photo3 from '../../images/staff-nimaeva-ev.png';

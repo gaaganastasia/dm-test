@@ -1,5 +1,4 @@
 import './Reviews.css';
-import { Link } from "react-router-dom";
 import Fade from 'react-reveal/Fade';
 
 function Reviews() {

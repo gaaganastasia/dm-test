@@ -110,20 +110,7 @@
   }
   
   .header__links {
-    /* position: absolute;
-    right: 0;
-    top: 64px;
-    display: none;
-    flex-direction: column;
-    gap: 7px;
-    min-height: 30px;
-    background: #F6FEFF;
-    outline: 1px solid #172D60;
-    border-radius: 5px;
-    padding: 16px 9px;
-    width: calc(130px - 18px);
-    margin: 0;
-    z-index: 1000; */
+
     display: none;
   }
 

@@ -1,34 +1,6 @@
 import './Expert.css';
 import { useParams } from "react-router-dom";
 
-import nimaevBc from '../../images/expert-nimaev-bc.png';
-import nimaevBcDocKmn from '../../images/expert-doc-nimaev-bc-kmn.png';
-import nimaevBcDocDmn from '../../images/expert-doc-nimaev-bc-dmn.png';
-
-import nimaevaEv from '../../images/expert-nimaeva-ev.png';
-import nimaevaEvDocDiploma from '../../images/expert-doc-nimaeva-ev-diploma.png';
-import nimaevaEvDocS1 from '../../images/expert-doc-nimaeva-ev-s1.png';
-import nimaevaEvDocUd from '../../images/expert-doc-nimaeva-ev-ud.png';
-import nimaevaEvDocS2 from '../../images/expert-doc-nimaeva-ev-s2.png';
-
-import nimaevAb from '../../images/expert-nimaev-ab.png';
-import nimaevAbDocDiploma from '../../images/expert-doc-nimaev-ab-diploma.png';
-import nimaevAbDocS1 from '../../images/expert-doc-nimaev-ab-s1.png';
-import nimaevAbDocS2 from '../../images/expert-doc-nimaev-ab-s2.png';
-import nimaevAbDocS3 from '../../images/expert-doc-nimaev-ab-s3.png';
-
-import elizarovaEe from '../../images/expert-elizarova-ee.png';
-import elizarovaEeDocDiploma1 from '../../images/expert-doc-elizarova-ee-diploma1.png';
-import elizarovaEeDocS1 from '../../images/expert-doc-elizarova-ee-s1.png';
-import elizarovaEeDocDiploma2 from '../../images/expert-doc-elizarova-ee-diploma2.png';
-import elizarovaEeDocDiploma3 from '../../images/expert-doc-elizarova-ee-diploma3.png';
-import elizarovaEeDocUd from '../../images/expert-doc-elizarova-ee-ud.png';
-
-import petrovaMu from '../../images/expert-petrova-mu.png';
-import petrovaMuDocDiploma from '../../images/expert-doc-petrova-mu-diploma.png';
-import petrovaMuDocS1 from '../../images/expert-doc-petrova-mu-s1.png';
-import petrovaMuDocS2 from '../../images/expert-doc-petrova-mu-s2.png';
-
 
 function Expert() {
   let { id } = useParams();
@@ -40,7 +12,6 @@ function Expert() {
         {
           id === '5fcc6ff4-3328-4df3-86a0-d84aec5ece4d' &&
           <div className='expert__photo-block expert__photo-block_desktop'>
-            {/* <img className='expert__photo' src={nimaevBc} alt="Портрет специалиста Нимаева Баира Цыденовича"></img> */}
             <div className='expert__photo expert__photo_nbc'></div>
             <p className='expert__quote'>«Лучшая жизнь начинается со здоровых зубов»</p>
             <p className='expert__quote'>«Стоматолог, который поёт»</p>
@@ -49,7 +20,6 @@ function Expert() {
         {
           id === '78a9680a-c29e-4c86-83ed-d2edc008decf' &&
           <div className='expert__photo-block expert__photo-block_desktop'>
-            {/* <img className='expert__photo' src={nimaevaEv} alt="Портрет специалиста Нимаевой Евгении Владимировной"></img> */}
             <div className='expert__photo expert__photo_nev'></div>
             <p className='expert__quote'>«В своей работе люблю и ценю возможность помогать людям»</p>
           </div>
@@ -57,7 +27,6 @@ function Expert() {
         {
           id === '44bfe6f7-2d8c-4e42-a3d3-530b439ed5f5' &&
           <div className='expert__photo-block expert__photo-block_desktop'>
-            {/* <img className='expert__photo' src={nimaevAb} alt="Портрет специалиста Нимаева Аюра Баировича"></img> */}
             <div className='expert__photo expert__photo_nab'></div>
             <p className='expert__quote'>«Мечтаю, чтоб люди улыбались чаще!»</p>
           </div>
@@ -65,7 +34,6 @@ function Expert() {
         {
           id === 'e3585a2a-e6b2-475f-9a0d-278308a3585c' &&
           <div className='expert__photo-block expert__photo-block_desktop'>
-            {/* <img className='expert__photo' src={elizarovaEe} alt="Портрет специалиста Елизаровой Елены Эдуардовны"></img> */}
             <div className='expert__photo expert__photo_eee'></div>
             <p className='expert__quote'>«Важно сохранить каждый зуб пациента»</p>
           </div>
@@ -73,7 +41,6 @@ function Expert() {
         {
           id === '3f11baac-ff21-4416-8909-793e645631c7' &&
           <div className='expert__photo-block expert__photo-block_desktop'>
-            {/* <img className='expert__photo' src={petrovaMu} alt="Портрет специалиста Петровой Маргариты Юрьевны"></img> */}
             <div className='expert__photo expert__photo_pmu'></div>
             <p className='expert__quote'>«Эстетичная и функциональная улыбка — наш приоритет»</p>
             <p className='expert__quote'>«Уверенность в себе начинается с улыбки»</p>
@@ -87,7 +54,6 @@ function Expert() {
             <p className='expert__job'>Доктор медицинских наук, профессор<br />Стоматолог-терапевт, хирург, ортопед</p>
             <p className='expert__seniority'>Стаж работы с 1993 года</p>
             <div className='expert__photo-block expert__photo-block_mobile'>
-              {/* <img className='expert__photo' src={nimaevBc} alt="Портрет специалиста Нимаева Баира Цыденовича"></img> */}
               <div className='expert__photo expert__photo_nbc'></div>
               <p className='expert__quote'>«Лучшая жизнь начинается со здоровых зубов»</p>
               <p className='expert__quote'>«Стоматолог, который поёт»</p>
@@ -122,7 +88,6 @@ function Expert() {
             <p className='expert__job'>Врач стоматолог-терапевт, хирург</p>
             <p className='expert__seniority'>Стаж работы с 2010 года</p>
             <div className='expert__photo-block expert__photo-block_mobile'>
-              {/* <img className='expert__photo' src={nimaevaEv} alt="Портрет специалиста Нимаевой Евгении Владимировной"></img> */}
               <div className='expert__photo expert__photo_nev'></div>
               <p className='expert__quote'>«В своей работе люблю и ценю возможность помогать людям»</p>
             </div>
@@ -159,7 +124,6 @@ function Expert() {
             <p className='expert__job'>Врач стоматолог-терапевт, эндодонтист, ортопед</p>
             <p className='expert__seniority'>Стаж работы с 2012 года</p>
             <div className='expert__photo-block expert__photo-block_mobile'>
-              {/* <img className='expert__photo' src={nimaevAb} alt="Портрет специалиста Нимаева Аюра Баировича"></img> */}
               <div className='expert__photo expert__photo_nab'></div>
               <p className='expert__quote'>«Мечтаю, чтоб люди улыбались чаще!»</p>
             </div>
@@ -193,7 +157,6 @@ function Expert() {
             <p className='expert__job'>Врач стоматолог-парадонтолог</p>
             <p className='expert__seniority'>Стаж работы с 2015 года</p>
             <div className='expert__photo-block expert__photo-block_mobile'>
-              {/* <img className='expert__photo' src={elizarovaEe} alt="Портрет специалиста Елизаровой Елены Эдуардовны"></img> */}
               <div className='expert__photo expert__photo_eee'></div>
               <p className='expert__quote'>«Важно сохранить каждый зуб пациента»</p>
             </div>
@@ -232,7 +195,6 @@ function Expert() {
             <p className='expert__job'>Врач стоматолог-ортодонт, гнатолог</p>
             <p className='expert__seniority'></p>
             <div className='expert__photo-block expert__photo-block_mobile'>
-              {/* <img className='expert__photo' src={petrovaMu} alt="Портрет специалиста Петровой Маргариты Юрьевны"></img> */}
               <div className='expert__photo expert__photo_pmu'></div>
               <p className='expert__quote'>«Эстетичная и функциональная улыбка — наш приоритет»</p>
               <p className='expert__quote'>«Уверенность в себе начинается с улыбки»</p>
@@ -269,8 +231,6 @@ function Expert() {
       {
         id === '5fcc6ff4-3328-4df3-86a0-d84aec5ece4d' &&
         <div className='expert__docs expert__docs_center'>
-          {/* <img className='expert__doc' alt="Документ о присуждении ученой степени кандидата медицинских наук" src={nimaevBcDocKmn}></img> */}
-          {/* <img className='expert__doc' alt="Документ о присуждении ученой степени доктора медицинских наук" src={nimaevBcDocDmn}></img> */}
           <div className='expert__doc expert__doc_nbc-kmn'></div>
           <div className='expert__doc expert__doc_nbc-dmn'></div>
         </div>
@@ -278,10 +238,6 @@ function Expert() {
       {
         id === '78a9680a-c29e-4c86-83ed-d2edc008decf' &&
         <div className='expert__docs'>
-          {/* <img className='expert__doc expert__doc_v' alt="Диплом о присуждении квалификации врач-стоматолог по специальности стоматология" src={nimaevaEvDocDiploma}></img> */}
-          {/* <img className='expert__doc expert__doc_g' alt="Сертификат о допуске к осуществлению медицинской или фармацевтической деятельности по специальности стоматология хирургическая" src={nimaevaEvDocS1}></img> */}
-          {/* <img className='expert__doc expert__doc_g' alt="Удостоверение о повышении квалификации по программе актуальные вопросы стоматологии общей практики" src={nimaevaEvDocUd}></img> */}
-          {/* <img className='expert__doc expert__doc_g' alt="Сертификат о допуске к осуществлению медицинской или фармацевтической деятельности по специальности стоматология общей практики" src={nimaevaEvDocS2}></img> */}
           <div className='expert__doc expert__doc_v expert__doc_nev-d'></div>
           <div className='expert__doc expert__doc_g expert__doc_nev-s1'></div>
           <div className='expert__doc expert__doc_g expert__doc_nev-u'></div>
@@ -291,10 +247,6 @@ function Expert() {
       {
         id === '44bfe6f7-2d8c-4e42-a3d3-530b439ed5f5' &&
         <div className='expert__docs'>
-          {/* <img className='expert__doc expert__doc_v' alt="Диплом о присуждении квалификации врач-стоматолог по специальности стоматология" src={nimaevAbDocDiploma}></img>
-          <img className='expert__doc expert__doc_g' alt="Сертификат о допуске к осуществлению медицинской или фармацевтической деятельности по специальности стоматология общей практики" src={nimaevAbDocS1}></img>
-          <img className='expert__doc expert__doc_g' alt="Сертификат о допуске к осуществлению медицинской или фармацевтической деятельности по специальности стоматология хирургическая" src={nimaevAbDocS2}></img>
-          <img className='expert__doc expert__doc_g' alt="Сертификат о допуске к осуществлению медицинской или фармацевтической деятельности по специальности стоматология ортопедическая" src={nimaevAbDocS3}></img> */}
           <div className='expert__doc expert__doc_v expert__doc_nab-d'></div>
           <div className='expert__doc expert__doc_g expert__doc_nab-s1'></div>
           <div className='expert__doc expert__doc_g expert__doc_nab-s2'></div>
@@ -304,11 +256,6 @@ function Expert() {
       {
         id === 'e3585a2a-e6b2-475f-9a0d-278308a3585c' &&
         <div className='expert__docs'>
-          {/* <img className='expert__doc expert__doc_g' alt="Диплом о присуждении квалификации врач по специальности стоматология" src={elizarovaEeDocDiploma1}></img> */}
-          {/* <img className='expert__doc expert__doc_g' alt="Сертификат о допуске к осуществлению медицинской или фармацевтической деятельности по специальности стоматология общей практики" src={elizarovaEeDocS1}></img> */}
-          {/* <img className='expert__doc expert__doc_g' alt="Диплом о присуждении квалификации в сфере стоматология терапевтическая" src={elizarovaEeDocDiploma2}></img> */}
-          {/* <img className='expert__doc expert__doc_g' alt="Диплом о присуждении квалификации врач по специальности стоматология общей практики" src={elizarovaEeDocDiploma3}></img> */}
-          {/* <img className='expert__doc expert__doc_g' alt="Удостоверение о повышении квалификации по программе актуальные вопросы стоматологии терапевтической" src={elizarovaEeDocUd}></img> */}
           <div className='expert__doc expert__doc_g expert__doc_eee-d1'></div>
           <div className='expert__doc expert__doc_g expert__doc_eee-s1'></div>
           <div className='expert__doc expert__doc_g expert__doc_eee-d2'></div>
@@ -319,9 +266,6 @@ function Expert() {
       {
         id === '3f11baac-ff21-4416-8909-793e645631c7' &&
         <div className='expert__docs'>
-          {/* <img className='expert__doc expert__doc_v' alt="Диплом о присуждении квалификации врач-ортодонт по специальности ортодонтия" src={petrovaMuDocDiploma}></img>
-          <img className='expert__doc expert__doc_g' alt="Свидетельство об аккредитации" src={petrovaMuDocS1}></img>
-          <img className='expert__doc expert__doc_g' alt="Свидетельство об аккредитации" src={petrovaMuDocS2}></img> */}
           <div className='expert__doc expert__doc_v expert__doc_pmu-d'></div>
           <div className='expert__doc expert__doc_g expert__doc_pmu-s1'></div>
           <div className='expert__doc expert__doc_g expert__doc_pmu-s2'></div>

@@ -1,5 +1,4 @@
 import './Contacts.css';
-import { Link } from "react-router-dom";
 
 function Contacts() {
   return (
@@ -30,7 +29,7 @@ function Contacts() {
             <p className='contacts__btn-text'>Записаться</p>
           </a>
         </div>
-        <iframe className='contacts__map' src="https://yandex.ru/map-widget/v1/?um=constructor%3Abd0344eb5c2e2e677deb06b2f15468d74ed7b66161f2e5512208390229622790&amp;source=constructor" width="730" height="440" frameBorder="0"></iframe>
+        <iframe className='contacts__map' src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae56a06ba1806ac95ed233fbd5369b480097d535423b6bdd492cc60571cc0525f&amp;source=constructor" width="730" height="440" frameBorder="0"></iframe>
         <p className='contacts__question contacts__question_mobile'>У вас остались вопросы — напишите нам</p>
         <a href='https://api.whatsapp.com/send/?phone=74956540051' target="_blank" rel="noreferrer" className='contacts__btn contacts__btn_mobile'>
           <div className='contacts__btn-icon'></div>

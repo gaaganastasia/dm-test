@@ -1,12 +1,6 @@
 .main {
   width: 100%;
   flex-direction: column;
-  /* background-image: url(../../images/main-back.png);
-  background-repeat: no-repeat;
-  background-size: 100vw calc((100vw / 720) * 349);
-  background-position: 0 0; */
-  /* height: calc(828px - 152px); */
-  /* padding-top: 152px; */
   margin: 16px auto 0;
   position: relative;
 }
@@ -23,9 +17,6 @@
 }
 
 .main__section {
-  /* background-image: url(../../images/main-back.png);
-  background-repeat: no-repeat;
-  background-size: cover; */
   padding: 152px 0 100px calc((100% - 1280px) / 2);
 }
 
